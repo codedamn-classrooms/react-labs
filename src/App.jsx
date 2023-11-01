@@ -1,7 +1,12 @@
-export default function App() {
-	return (
-		<>
-			<h1>Hello there!</h1>
-		</>
-	);
-}
+import styled from 'styled-components'
+
+const ProgressBar = ({ percent = 12 }) => {
+
+  return (
+    <div data-testid="wrapper">
+      <div data-testid="progress"/>
+    </div>
+  );
+};
+
+export default ProgressBar;

@@ -1,7 +1,5 @@
-export default function App() {
-	return (
-		<>
-			<h1>Hello there!</h1>
-		</>
-	);
-}
+const App = () => {
+  // Write your code here
+};
+
+export default App;

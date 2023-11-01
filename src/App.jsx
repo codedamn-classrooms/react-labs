@@ -1,7 +1,8 @@
-export default function App() {
-	return (
-		<>
-			<h1>Hello there!</h1>
-		</>
-	);
+const App = () => {
+  // Edit this component
+  return (
+    <button data-testid='button'></button>
+  )
 }
+
+export default App

@@ -1,7 +1,12 @@
-export default function App() {
-	return (
-		<>
-			<h1>Hello there!</h1>
-		</>
-	);
-}
+import React from 'react';
+
+const App = () => {
+  // Edit this component
+  return (
+    <div>
+      <input data-testid='input-id' type="text"/>
+    </div>
+  );
+};
+
+export default App;

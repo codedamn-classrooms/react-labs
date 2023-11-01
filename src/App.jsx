@@ -1,7 +1,12 @@
-export default function App() {
-	return (
-		<>
-			<h1>Hello there!</h1>
-		</>
-	);
+const App = () => {
+  // Edit this component
+  return (
+    <>
+      <h1 data-testid="count"></h1>
+      <button data-testid="increment"></button>
+      <button data-testid="decrement"></button>
+    </>
+  )
 }
+
+export default App
